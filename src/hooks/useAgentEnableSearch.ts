@@ -9,9 +9,6 @@ export const useAgentEnableSearch = () => {
     agentChatConfigSelectors.agentSearchMode(s),
   ]);
 
-  const isModelSupportToolUse = useAiInfraStore(
-    aiModelSelectors.isModelSupportToolUse(model, provider),
-  );
   const searchImpl = useAiInfraStore(aiModelSelectors.modelBuiltinSearchImpl(model, provider));
 
   // 只要是内置的搜索实现，一定可以联网搜索
@@ -22,6 +19,6 @@ export const useAgentEnableSearch = () => {
 
   // 如果是智能模式，根据是否支持 Tool Calling 判断
   if (agentSearchMode === 'auto') {
-    return isModelSupportToolUse;
+    return true;
   }
 };
