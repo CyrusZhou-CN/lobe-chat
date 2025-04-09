@@ -4,9 +4,11 @@ import { default as ai21 } from './ai21';
 import { default as ai360 } from './ai360';
 import { default as anthropic } from './anthropic';
 import { default as azure } from './azure';
+import { default as azureai } from './azureai';
 import { default as baichuan } from './baichuan';
 import { default as bedrock } from './bedrock';
 import { default as cloudflare } from './cloudflare';
+import { default as cohere } from './cohere';
 import { default as deepseek } from './deepseek';
 import { default as doubao } from './doubao';
 import { default as fireworksai } from './fireworksai';
@@ -17,7 +19,9 @@ import { default as groq } from './groq';
 import { default as higress } from './higress';
 import { default as huggingface } from './huggingface';
 import { default as hunyuan } from './hunyuan';
+import { default as infiniai } from './infiniai';
 import { default as internlm } from './internlm';
+import { default as jina } from './jina';
 import { default as lmstudio } from './lmstudio';
 import { default as minimax } from './minimax';
 import { default as mistral } from './mistral';
@@ -28,7 +32,10 @@ import { default as ollama } from './ollama';
 import { default as openai } from './openai';
 import { default as openrouter } from './openrouter';
 import { default as perplexity } from './perplexity';
+import { default as ppio } from './ppio';
 import { default as qwen } from './qwen';
+import { default as sambanova } from './sambanova';
+import { default as search1api } from './search1api';
 import { default as sensenova } from './sensenova';
 import { default as siliconcloud } from './siliconcloud';
 import { default as spark } from './spark';
@@ -37,9 +44,12 @@ import { default as taichu } from './taichu';
 import { default as tencentcloud } from './tencentcloud';
 import { default as togetherai } from './togetherai';
 import { default as upstage } from './upstage';
+import { default as vertexai } from './vertexai';
 import { default as vllm } from './vllm';
+import { default as volcengine } from './volcengine';
 import { default as wenxin } from './wenxin';
 import { default as xai } from './xai';
+import { default as xinference } from './xinference';
 import { default as zeroone } from './zeroone';
 import { default as zhipu } from './zhipu';
 
@@ -67,9 +77,11 @@ export const LOBE_DEFAULT_MODEL_LIST = buildDefaultModelList({
   ai360,
   anthropic,
   azure,
+  azureai,
   baichuan,
   bedrock,
   cloudflare,
+  cohere,
   deepseek,
   doubao,
   fireworksai,
@@ -80,7 +92,9 @@ export const LOBE_DEFAULT_MODEL_LIST = buildDefaultModelList({
   higress,
   huggingface,
   hunyuan,
+  infiniai,
   internlm,
+  jina,
   lmstudio,
   minimax,
   mistral,
@@ -91,7 +105,10 @@ export const LOBE_DEFAULT_MODEL_LIST = buildDefaultModelList({
   openai,
   openrouter,
   perplexity,
+  ppio,
   qwen,
+  sambanova,
+  search1api,
   sensenova,
   siliconcloud,
   spark,
@@ -100,9 +117,12 @@ export const LOBE_DEFAULT_MODEL_LIST = buildDefaultModelList({
   tencentcloud,
   togetherai,
   upstage,
+  vertexai,
   vllm,
+  volcengine,
   wenxin,
   xai,
+  xinference,
   zeroone,
   zhipu,
 });
@@ -111,9 +131,11 @@ export { default as ai21 } from './ai21';
 export { default as ai360 } from './ai360';
 export { default as anthropic } from './anthropic';
 export { default as azure } from './azure';
+export { default as azureai } from './azureai';
 export { default as baichuan } from './baichuan';
 export { default as bedrock } from './bedrock';
 export { default as cloudflare } from './cloudflare';
+export { default as cohere } from './cohere';
 export { default as deepseek } from './deepseek';
 export { default as doubao } from './doubao';
 export { default as fireworksai } from './fireworksai';
@@ -124,7 +146,9 @@ export { default as groq } from './groq';
 export { default as higress } from './higress';
 export { default as huggingface } from './huggingface';
 export { default as hunyuan } from './hunyuan';
+export { default as infiniai } from './infiniai';
 export { default as internlm } from './internlm';
+export { default as jina } from './jina';
 export { default as lmstudio } from './lmstudio';
 export { default as minimax } from './minimax';
 export { default as mistral } from './mistral';
@@ -135,7 +159,10 @@ export { default as ollama } from './ollama';
 export { default as openai } from './openai';
 export { default as openrouter } from './openrouter';
 export { default as perplexity } from './perplexity';
+export { default as ppio } from './ppio';
 export { default as qwen } from './qwen';
+export { default as sambanova } from './sambanova';
+export { default as search1api } from './search1api';
 export { default as sensenova } from './sensenova';
 export { default as siliconcloud } from './siliconcloud';
 export { default as spark } from './spark';
@@ -144,8 +171,11 @@ export { default as taichu } from './taichu';
 export { default as tencentcloud } from './tencentcloud';
 export { default as togetherai } from './togetherai';
 export { default as upstage } from './upstage';
+export { default as vertexai } from './vertexai';
 export { default as vllm } from './vllm';
+export { default as volcengine } from './volcengine';
 export { default as wenxin } from './wenxin';
 export { default as xai } from './xai';
+export { default as xinference } from './xinference';
 export { default as zeroone } from './zeroone';
 export { default as zhipu } from './zhipu';
